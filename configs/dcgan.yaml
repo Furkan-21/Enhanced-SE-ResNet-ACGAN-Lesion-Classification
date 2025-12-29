@@ -1,0 +1,21 @@
+# DCGAN Configuration for HAM10000 dataset
+# This configuration is optimized for training on rare classes like DF and VASC
+
+# Model parameters
+latent_dim: 100
+channels: 3
+ngf: 64  # Number of generator filters
+ndf: 64  # Number of discriminator filters
+image_size: 128
+
+# Training parameters
+batch_size: 32
+epochs: 200
+lr: 0.0002
+beta1: 0.5
+log_interval: 10
+sample_interval: 100
+save_interval: 10
+
+# Hardware
+num_workers: 4

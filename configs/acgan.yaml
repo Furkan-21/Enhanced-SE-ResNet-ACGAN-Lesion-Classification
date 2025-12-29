@@ -1,0 +1,23 @@
+# ACGAN Configuration for HAM10000 dataset
+# This configuration is optimized for training on 5 classes
+
+# Model parameters
+latent_dim: 100
+channels: 3
+ngf: 64  # Number of generator filters
+ndf: 64  # Number of discriminator filters
+image_size: 128
+n_classes: 5 # Explicitly set number of classes
+lambda_aux: 1.0  # Weight for auxiliary classifier loss
+
+# Training parameters
+batch_size: 64
+epochs: 150
+lr: 0.0002
+beta1: 0.5
+log_interval: 10
+sample_interval: 100
+save_interval: 10
+
+# Hardware
+num_workers: 4
