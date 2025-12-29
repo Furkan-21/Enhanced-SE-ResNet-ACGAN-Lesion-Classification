@@ -62,7 +62,7 @@ The combination of ACGAN-augmented data and the Enhanced SE-ResNet architecture 
 
 Try out the model with your own skin lesion images using our Hugging Face Space:
 
-**[🔗 Hugging Face Space Demo](https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME)**
+**[🔗 Hugging Face Space Demo](https://huggingface.co/spaces/Furkan-21/skin-lesion-analyzer)**
 
 *Note: Replace the link above with your actual Hugging Face Space URL once deployed.*
 
